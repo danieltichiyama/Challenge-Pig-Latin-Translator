@@ -7,8 +7,6 @@ describe("Translate to Pig Latin", function() {
 
   it("Single word", function() {
     const result = translator.toPigLatin("Help");
-    console.log("result", result);
-    console.log("typeof", typeof result);
     expect(result).to.equal("elp-Hay");
   });
 
